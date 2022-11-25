@@ -1,0 +1,13 @@
+body, html{
+    max-width: 990px;
+    padding: auto;
+    position: relative;
+}
+#top{
+    background-image: url(/img/images/bg-top.jpg);
+    background-size: cover;
+}
+#top .image img{
+    width: 200px;
+    height: auto;
+}
