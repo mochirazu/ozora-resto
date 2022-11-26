@@ -26,10 +26,10 @@ body{
 .image{
     display: flex;
     margin: 0;
+    padding-left: 20px;
     justify-content: space-evenly;
 }
 #top .image img{
     width: 350px;
     height: auto;
-    display: inline;
 }
