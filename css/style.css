@@ -1,18 +1,35 @@
 html{
+    display: block;
     height: 3781px;
 }
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
 body{
-    position: absolute;
+    width: 100%;
+    max-width: 990px;
+    margin: 0 auto;
+}
+#bg{
     background-image: url(/img/images/bg.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    max-width: 990px;
+    width: 990px;
     height: 3781px
+}
+.title img{
+    position: relative;
+    padding-left: 70px;
+}
+.image{
+    display: flex;
+    margin: 0;
+    justify-content: space-evenly;
 }
 #top .image img{
     width: 350px;
     height: auto;
-    position: absolute;
-    align-items: center;
-
+    display: inline;
 }
