@@ -1,10 +1,13 @@
+html{
+    height: 3781px;
+}
 body{
+    position: absolute;
     background-image: url(/img/images/bg.jpg);
     background-repeat: no-repeat;
     background-position: center;
     max-width: 990px;
     height: 3781px
-
 }
 #top .image img{
     width: 350px;
