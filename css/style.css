@@ -57,3 +57,21 @@ body{
 position: relative;
 }
 /* menu */
+.kare-title{
+    position: relative;
+    margin-top: 100px;
+    margin-bottom: -20px;
+    padding-left: 320px;
+}
+.kare-image{
+    border: none;
+    border-radius: 0px 30px 30px 0px;
+    width: 380px;
+    height: 400px;
+    margin-top: 100px;
+}
+.kare-image{
+    background-image: url(/img/images/魚介カレー.jpg);
+    background-size: 585px 400px;
+    background-position: 385px;
+}
