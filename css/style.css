@@ -19,7 +19,7 @@ body{
     width: 990px;
     height: 3781px
 }
-/*top*/
+/* top */
 .title img{
     position: relative;
     padding-left: 70px;
@@ -39,7 +39,7 @@ body{
     width: 290px;
     height: auto;
 }
-/* mid*/
+/* mid */
 #mid .mid-title{
     position: relative;
     margin-top: 100px;
@@ -49,9 +49,11 @@ body{
 .button{
     height: 250px;
     background-image: url(/img/images/bg-button.png);
+    background-position: center;
     display: flex;
     justify-content: space-evenly;
 }
 .button img{
 position: relative;
 }
+/* menu */
