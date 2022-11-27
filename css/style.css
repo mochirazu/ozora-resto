@@ -61,6 +61,12 @@ position: relative;
 #kare{
     height: 665px;
 }
+#ramen{
+    height: 665px;
+}
+#mabushi{
+    height: 665px;
+}
 .kare-title{
     position: relative;
     margin-top: 100px;
@@ -81,9 +87,9 @@ position: relative;
 }
 .ramen-title{
     position: relative;
-    margin-top: 100px;
+    margin-top: 65px;
     margin-bottom: -20px;
-    padding-left: 320px;
+    padding-left: 260px;
 }
 .ramen-image{
     border: none;
@@ -94,6 +100,25 @@ position: relative;
 }
 .ramen-image{
     background-image: url(/img/images/牛タンラーメン.jpg);
+    background-size: 870px 600px;
+    background-position-x: 620px;
+    background-position-y: 540px;
+}
+.mabushi-title{
+    position: relative;
+    margin-top: 55px;
+    margin-bottom: -20px;
+    padding-left: 320px;
+}
+.mabushi-image{
+    border: none;
+    border-radius: 0px 30px 30px 0px;
+    width: 380px;
+    height: 400px;
+    margin-top: 100px;
+}
+.mabushi-image{
+    background-image: url(/img/images/ひつまぶし.jpg);
     background-size: 585px 400px;
     background-position: 385px;
 }
