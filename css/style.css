@@ -94,10 +94,10 @@ position: relative;
     font-size: 20px;
     text-align: left;
     font-weight: 600;
-    line-height: 2.5;
+    line-height: 1.75;
     letter-spacing: 0.2px;
     padding-left: 450px;
-    top: 220px;
+    top: 260px;
     position: absolute;
 }
 .ramen-title{
@@ -141,4 +141,23 @@ position: relative;
 /* bot */
 .kupon{
     margin-top: 20px;
+}
+.akses{
+    height: 314px;
+    background-image: url(/img/images/akses.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: 50px;
+    color: #b44e5f;
+    position: relative;
+}
+.akses p{
+    position: absolute;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.5;
+    letter-spacing: 0.2px;
+    padding-left: 200px;
+    top: 145px;
 }
