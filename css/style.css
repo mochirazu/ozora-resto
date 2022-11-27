@@ -134,6 +134,11 @@ position: relative;
 }
 .mabushi-image{
     background-image: url(/img/images/ひつまぶし.jpg);
-    background-size: 585px 400px;
-    background-position: 385px;
+    background-size: 700px 450px;
+    background-position-x: 390px;
+    background-position-y: 400px;
+}
+/* bot */
+.kupon{
+    margin-top: 20px;
 }
