@@ -19,6 +19,7 @@ body{
     width: 990px;
     height: 3781px
 }
+/*top*/
 .title img{
     position: relative;
     padding-left: 70px;
@@ -37,4 +38,10 @@ body{
 #top .image img{
     width: 290px;
     height: auto;
+}
+/* mid*/
+#mid .mid-title{
+    position: relative;
+    margin-top: 100px;
+    padding-left: 45px;
 }
