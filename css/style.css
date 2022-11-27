@@ -26,10 +26,15 @@ body{
 .image{
     display: flex;
     margin: 0;
-    padding-left: 20px;
     justify-content: space-evenly;
 }
+.kare-top, .mabushi-top{
+    padding-left: 10px;
+}
+.ramen-top{
+    padding-left: 20px;
+}
 #top .image img{
-    width: 350px;
+    width: 290px;
     height: auto;
 }
