@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
 html{
     display: block;
     height: 3781px;
@@ -57,6 +58,9 @@ body{
 position: relative;
 }
 /* menu */
+#kare{
+    height: 665px;
+}
 .kare-title{
     position: relative;
     margin-top: 100px;
@@ -72,6 +76,24 @@ position: relative;
 }
 .kare-image{
     background-image: url(/img/images/魚介カレー.jpg);
+    background-size: 585px 400px;
+    background-position: 385px;
+}
+.ramen-title{
+    position: relative;
+    margin-top: 100px;
+    margin-bottom: -20px;
+    padding-left: 320px;
+}
+.ramen-image{
+    border: none;
+    border-radius: 0px 30px 30px 0px;
+    width: 380px;
+    height: 400px;
+    margin-top: 100px;
+}
+.ramen-image{
+    background-image: url(/img/images/牛タンラーメン.jpg);
     background-size: 585px 400px;
     background-position: 385px;
 }
