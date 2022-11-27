@@ -58,7 +58,11 @@ body{
 position: relative;
 }
 /* menu */
+#menu{
+    font-family: 'Noto Sans JP', sans-serif;
+}
 #kare{
+    position: relative;
     height: 665px;
 }
 #ramen{
@@ -84,6 +88,17 @@ position: relative;
     background-image: url(/img/images/魚介カレー.jpg);
     background-size: 585px 400px;
     background-position: 385px;
+}
+.kare-font{
+    color: #b44e5f;
+    font-size: 20px;
+    text-align: left;
+    font-weight: 600;
+    line-height: 2.5;
+    letter-spacing: 0.2px;
+    padding-left: 450px;
+    top: 220px;
+    position: absolute;
 }
 .ramen-title{
     position: relative;
