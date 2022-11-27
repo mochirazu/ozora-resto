@@ -43,5 +43,15 @@ body{
 #mid .mid-title{
     position: relative;
     margin-top: 100px;
+    margin-bottom: -20px;
     padding-left: 45px;
+}
+.button{
+    height: 250px;
+    background-image: url(/img/images/bg-button.png);
+    display: flex;
+    justify-content: space-evenly;
+}
+.button img{
+position: relative;
 }
