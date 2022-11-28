@@ -60,15 +60,19 @@ position: relative;
 /* menu */
 #menu{
     font-family: 'Noto Sans JP', sans-serif;
+    color: #b44e5f;
+    font-size: 20px;
 }
 #kare{
     position: relative;
     height: 665px;
 }
 #ramen{
+    position: relative;
     height: 665px;
 }
 #mabushi{
+    position: relative;
     height: 665px;
 }
 .kare-title{
@@ -90,8 +94,6 @@ position: relative;
     background-position: 385px;
 }
 .kare-font{
-    color: #b44e5f;
-    font-size: 20px;
     text-align: left;
     font-weight: 600;
     line-height: 1.75;
@@ -119,6 +121,15 @@ position: relative;
     background-position-x: 620px;
     background-position-y: 540px;
 }
+.ramen-font{
+    text-align: left;
+    font-weight: 600;
+    line-height: 1.75;
+    letter-spacing: 0.2px;
+    padding-left: 450px;
+    top: 260px;
+    position: absolute;
+}
 .mabushi-title{
     position: relative;
     margin-top: 55px;
@@ -137,6 +148,15 @@ position: relative;
     background-size: 700px 450px;
     background-position-x: 390px;
     background-position-y: 400px;
+}
+.mabushi-font{
+    text-align: left;
+    font-weight: 600;
+    line-height: 1.75;
+    letter-spacing: 0.2px;
+    padding-left: 450px;
+    top: 260px;
+    position: absolute;
 }
 /* bot */
 .kupon{
