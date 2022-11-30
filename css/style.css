@@ -14,7 +14,7 @@ body{
     margin: 0 auto;
 }
 #bg{
-    background-image: url(../img/bg2.jpg);
+    background-image: url(/img/bg2.jpg);
     background-repeat: no-repeat;
     background-position: center;
     width: 990px;
