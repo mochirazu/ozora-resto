@@ -57,6 +57,11 @@ body{
 .button img{
 position: relative;
 }
+.button img:hover{
+    transform: rotate(5deg);
+    scale: 1.1;
+    transition: 0.5s;
+}
 /* menu */
 #menu{
     font-family: 'Noto Sans JP', sans-serif;
@@ -161,6 +166,10 @@ position: relative;
 /* bot */
 .kupon{
     margin-top: 20px;
+}
+.kupon img:hover{
+    scale: 1.1;
+    transition: 0.7s;
 }
 .akses{
     height: 314px;
